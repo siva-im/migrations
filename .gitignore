@@ -1,0 +1,72 @@
+# Logs
+*.log
+error_*.log
+output*.log
+migration*.log
+
+# Excel files (inventory outputs)
+*.xlsx
+*.xls
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.staging
+
+# Credentials and keys
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+*.ppk
+
+# Migration archives
+*.tar
+*.tar.gz
+*.zip
+Bitbucket_export_*.tar
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# PowerShell scripts (generated)
+migrate.ps1
+migration_scripts/
+
+# Backup files
+*.bak
+*.backup
+*.old
