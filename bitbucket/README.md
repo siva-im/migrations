@@ -116,6 +116,8 @@ gh bbs2gh generate-script --bbs-server-url BBS_URL --github-org ORG --output mig
 
 ## Issues Experienced
 
+- **[ERROR] Git source migration failed. Error message: Failed to create the target repository due to enterprise repository creation policy violation. Details: Due to policy, you are not permitted to perform that operation on this repository. meta: {"octoshift_error_code"=>"REPOSITORY_CREATION_POLICY_VIOLATION"}.**
+ - **Fix:** Request access to create repo in GitHub
 - **[ERROR] Git source migration failed. Error message: An error occurred. Please contact support for further assistance.**
   - **FIX**: Ruleset blocking pushing of tags. Deactivate ruleset, since we cannot add the ghost user to bypassers
 
